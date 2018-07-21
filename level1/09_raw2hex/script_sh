@@ -1,0 +1,7 @@
+cd /problems/854399173cf870506ff3a4397adfefc1
+
+not_flag=$(echo -n 'The flag is:' | xxd -p)
+s=$(./raw2hex | xxd -p)
+len_not_flag=${#not_flag}
+echo ${s:$len_not_flag}
+
