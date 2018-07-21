@@ -1,0 +1,2 @@
+cd /problems/3ced8dfe6c77c63010c94a84656fa6ea
+python3 -c "import sys; import codecs; sys.stdout.buffer.write(codecs.getdecoder('hex_codec')('1a558acddabd64bbccdd94903eafdf18')[0])" | ./hex2raw

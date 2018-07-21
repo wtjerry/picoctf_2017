@@ -1,0 +1,1 @@
+echo A | ./hex2raw | head -n 3 | tail -n 2 | python3 -c "import sys; import base64; print(base64.b64decode(sys.stdin.read()))" | ./hex2raw
