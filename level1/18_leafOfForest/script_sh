@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd /problems/b8c0c83a9aa6d7c4963d1bb09b9a33d0
+cat $(find . -type f | grep flag) && echo ""
