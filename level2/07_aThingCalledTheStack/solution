@@ -1,0 +1,17 @@
+0x200 return address
+0x1fc
+0x1f8
+0x1f4
+0x1f0                    
+..
+0xc4                     <- esp
+
+
+registers:
+ebp = 0x4
+
+
+--- find the difference between the value of esp at the end of the code, and the location of the saved return address?
+
+
+python: hex(0x200-0xc4) -> 0x13c
